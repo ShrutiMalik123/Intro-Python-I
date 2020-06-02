@@ -31,7 +31,7 @@ import sys
 import calendar
 from datetime import datetime
 
-now = datetime.now()  .
+now = datetime.now()
 
 if len(sys.argv) == 1:
     calendar.prmonth(now.year, now.month)
